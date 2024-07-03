@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# vsce-cli
+*.vsix
+
+# Node modules
+node_modules/

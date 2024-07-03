@@ -1,0 +1,44 @@
+{
+  "name": "vscode-vercel",
+  "displayName": "VSCode Vercel",
+  "description": "A carefully crafted set of colorschemes that are faithful to Next.js & Vercel's docs",
+  "publisher": "gantoreno",
+  "version": "0.1.0",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gantoreno/vscode-vercel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gantoreno/vscode-vercel/issues",
+    "email": "gantoreno@gmail.com"
+  },
+  "keywords": [
+    "theme",
+    "vercel",
+    "dark",
+    "light",
+    "italics"
+  ],
+  "icon": "assets/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Vercel (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/vercel-light.json"
+      },
+      {
+        "label": "Vercel (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/vercel-dark.json"
+      }
+    ]
+  }
+}
