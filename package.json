@@ -1,6 +1,6 @@
 {
-  "name": "vscode-vercel",
-  "displayName": "VSCode Vercel",
+  "name": "vscode-vercel-theme",
+  "displayName": "VSCode Vercel Theme",
   "description": "A carefully crafted set of colorschemes that are faithful to Next.js & Vercel's docs",
   "publisher": "gantoreno",
   "version": "0.1.0",
